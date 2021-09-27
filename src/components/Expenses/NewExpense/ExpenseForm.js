@@ -9,15 +9,15 @@ function ExpenseForm() {
 
     const titleChangeHandler = (event) => {
         setEnteredTitle(event.target.value);
-    }
+    };
 
     const amountChangeHandler = (event) => {
-        setEnteredAmount(event.target.value);
-    }
+       setEnteredAmount(event.target.value);
+    };
 
     const dateChangeHandler = (event) => {
         setEnteredDate(event.target.value);
-    }
+    };
 
     return (
         <form>
